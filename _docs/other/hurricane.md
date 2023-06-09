@@ -13,7 +13,7 @@ Issues with each workaround are listed in the plugin's config. **Please take you
 - https://github.com/GeyserMC/Geyser/issues/638 by implementing the control server-side.
 
 Supported Versions:
-- 1.14.x - 1.19.x
+- 1.14.x - 1.20
 - 1.17.x & above for pig riding
 
 ### Download
