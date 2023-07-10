@@ -55,7 +55,7 @@ This method will return null if the player is not a Bedrock player.
 
 `GeyserApi#sendForm(UUID, Form(Builder))`<br>
 Used to send a form to the Bedrock player with the given UUID.<br>
-Click [here](/floodgate/forms/) to get more information about Forms.
+Click [here](/geyser/forms/) to get more information about Forms.
 
 `GeyserApi#onlineConnectionsCount()`<br>
 Used to get the amount of online Bedrock players.

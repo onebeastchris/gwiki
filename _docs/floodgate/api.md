@@ -2,7 +2,7 @@
 title: Floodgate API
 ---
 
-### Floodgate has an API to extend what is possible and allow servers to get information about the Bedrock client. It also allows other plugins access to [Cumulus](/geyser/forms/)
+### Floodgate has an API to extend what is possible and allow servers to get information about the Bedrock client. It also allows other plugins access to [Cumulus](/geyser/forms/).
 
 This page will contain information about class FloodgateApi.<br>
 See the sidebar for more information about other parts of the API.

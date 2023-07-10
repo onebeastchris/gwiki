@@ -4,13 +4,13 @@ title: Developer Guide
 
 ## Compiling
 1. Clone the repo to your computer (EG: `git clone https://github.com/GeyserMC/Geyser.git`)
-2. [Install Maven](https://maven.apache.org/install.html)
-3. Navigate to the Geyser root directory and run `git submodule update --init --recursive`. This downloads all the needed submodules for Geyser and is a crucial step in this process.
-4. Run `mvn clean install` and locate to the `bootstrap`, then your desired Geyser version, then `target` folder.
+2. Navigate to the Geyser root directory and run `git submodule update --init --recursive`. This downloads all the needed submodules for Geyser and is a crucial step in this process.
+3. Run `gradlew build` and locate to the `bootstrap/build` folder.
 
 ## Project layout
 * `bootstrap` is where we hold the specific platform code. So if you're porting Geyser to a new platform, or working with platform-specific code, you likely want to be in here.
 * `core` is where connections are handled and the data conversion is done. The majority of Geyser work is held here.
+* `api` is for the Geyser API. This is where you can find api methods and events.
 
 # Compiler Tools
 
