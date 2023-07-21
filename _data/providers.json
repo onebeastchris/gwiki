@@ -290,6 +290,11 @@
       "description": "Use the default server port and 0.0.0.0 or your server IP as the host address."
     },
     {
+      "name": "Oracle Cloud / OCI",
+      "url": "https://www.oracle.com/cloud/",
+      "description": "[Tutorial for a Minecraft server in Oracle Cloud](https://blogs.oracle.com/developers/post/how-to-set-up-and-run-a-really-powerful-free-minecraft-server-in-the-cloud)\n  - Note: You'll need to also allow port 19132 on UDP in both the security list and the firewall-cmd command.\n -- Note for Ubuntu users: Comment out `-A INPUT -j REJECT --reject-with icmp-host-prohibited` in `/etc/iptables/rules.v4` and run `sudo iptables-restore < /etc/iptables/rules.v4` to fix ufw."
+    },
+    {
       "name": "OVH",
       "url": "https://www.ovh.com/",
       "description": "To fix firewall issues blocking UDP connections, see [here](https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/#issues-connecting-with-ovh-or-a-subsidiary)."
