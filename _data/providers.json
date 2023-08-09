@@ -154,11 +154,6 @@
       "description": "Need to ask to open the default bedrock port."
     },
     {
-      "name": "Eendhosting - TODO",
-      "url": "https://eendhosting.nl/",
-      "description_template": "default"
-    },
-    {
       "name": "EnviroMC",
       "url": "https://enviromc.host/",
       "description_template": "default"
@@ -204,12 +199,6 @@
       "description_template": "default"
     },
     {
-      "name": "Futurehosting - TODO",
-      "url": "https://futurehosting.org/",
-      "description_template": "default",
-      "description": "Make sure your `bedrock` `address` in your Geyser config is your server IP."
-    },
-    {
       "name": "GameHosting.it",
       "url": "https://www.gamehosting.it/",
       "description_template": "default"
@@ -233,11 +222,6 @@
       "name": "HostEZ",
       "url": "https://hostez.io/minecraft",
       "description": "Geyser plugin supported with self-install or installed on request with its own port. Includes firewall tested to be compatible with Geyser."
-    },
-    {
-      "name": "HostValues - TODO",
-      "url": "https://hostvalues.net/",
-      "description_template": "default"
     },
     {
       "name": "HumbleServers",
@@ -379,11 +363,6 @@
       "name": "The Minecraft Hosting",
       "url": "https://theminecrafthosting.com/",
       "description": "Try using 19132 as the Bedrock port, if that does not work, use the same Java server's port for the Bedrock port in your config and connect with that port."
-    },
-    {
-      "name": "Titan Nodes - TODO",
-      "url": "https://titannodes.com/",
-      "description": "Get Geyser as a plugin. Use the default server port and 0.0.0.0 as the host address."
     },
     {
       "name": "TNAHosting",
